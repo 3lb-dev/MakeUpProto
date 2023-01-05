@@ -1,0 +1,1323 @@
+fileFormatVersion: 2
+guid: 40cb92b2981c4a74eb22668d0a9fdeef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 400
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Eyeliner_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 537
+      y: 632
+      width: 54
+      height: 490
+    spriteID: b5fa1ec886959644fb8fddeb09bbba92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -583, y: 9}
+  - name: Razor_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 1386
+      width: 71
+      height: 582
+    spriteID: 4890b9dff8f89d34bb86c63df10aca4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -68, y: -57}
+  - name: Brush-02_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 537
+      y: 227
+      width: 94
+      height: 397
+    spriteID: 5d7561f43b39c264eba296e347a7d528
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -806, y: -396}
+  - name: Brush-01_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 537
+      y: 1130
+      width: 42
+      height: 483
+    spriteID: d337953bc54394f41ae3635b05d16c69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -21, y: -406}
+  - name: Foundation_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 639
+      y: 227
+      width: 110
+      height: 325
+    spriteID: fdecc0cf311513f4a8128f6ecb76244f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 548, y: -889}
+  - name: Hand_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 410
+      height: 479
+    spriteID: 5e27d618407fa19408fabe21b9e2219f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -706, y: -1532}
+  - name: Eyes_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 4
+      width: 467
+      height: 215
+    spriteID: b17a878286c510943a335c9b0788bfd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 97, y: -1167}
+  - name: Lipstick_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 1386
+      width: 108
+      height: 440
+    spriteID: 4a37faa35b8a3c8448c27972e3f44bb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -213, y: 763}
+  - name: Needle_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1386
+      width: 108
+      height: 590
+    spriteID: fd3071e0a512f0d42838f390e96c1035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -884, y: 749}
+  - name: MetalToolPimple_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 227
+      width: 59
+      height: 1655
+    spriteID: 762444fd5089bfe4cac1079beb1ac3f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1539, y: 161}
+  - name: BrushGreen_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 315
+      y: 1386
+      width: 97
+      height: 398
+    spriteID: ca0cc239053bf1b4b9a37eed54a6d52e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 217, y: 742}
+  - name: Towel_obj
+    originalName: 
+    pivot: {x: 0.53441733, y: 0.18545595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 954
+      width: 310
+      height: 424
+    spriteID: d1513166f674fcb4ca887df2470cbc66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1584, y: 890}
+  - name: Sponge_obj
+    originalName: 
+    pivot: {x: 0.5060278, y: 0.08260632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 491
+      width: 354
+      height: 455
+    spriteID: acf4a6c3167cb9542b8ed8219b59685d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1180, y: -1053}
+  - name: BlackPen_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 489
+      y: 227
+      width: 40
+      height: 1196
+    spriteID: 66c6451e86f185c46a6799a4fac2cd10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1240, y: -365}
+  rigSpriteImportData:
+  - name: Razor_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 4
+      width: 391
+      height: 442
+    spriteID: 1fc2c7f77eb09b04dafdf76e716b6bb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 415, y: -1553}
+  - name: Brush-01_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1014
+      width: 42
+      height: 483
+    spriteID: 36cd34314fbe3ed49b91c129b3ed26bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -554, y: -522}
+  - name: Foundation_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1870
+      y: 4
+      width: 110
+      height: 325
+    spriteID: 5d9937f2b3598d74fa89ad7b9a3cfddc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1779, y: -1112}
+  - name: Hand_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 460
+      width: 410
+      height: 479
+    spriteID: 71066cb2b0a4dfa45a99eb9e335a73ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -706, y: -1076}
+  - name: Eyes_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1174
+      y: 4
+      width: 467
+      height: 215
+    spriteID: 5f9bfa016375aa64bb6dd72824f51c7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 849, y: -1167}
+  - name: Lipstick_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1649
+      y: 4
+      width: 108
+      height: 440
+    spriteID: 037dca0a1d8c05f48823d5d2b1c8f8c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1316, y: -619}
+  - name: Needle_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 445
+      height: 448
+    spriteID: e69db6dfeb4cedd48bf64efbdb7ab349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -554, y: -619}
+  - name: MetalToolPimple_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 947
+      width: 1655
+      height: 59
+    spriteID: 4dbc64f1732e5a247b5bfcaf36b89ec0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -38, y: 572}
+  - name: BrushGreen_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 4
+      width: 97
+      height: 398
+    spriteID: 8a4a9217dc97b974b89f0aa30fb01054
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1667, y: -640}
+  - name: Towel_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 856
+      y: 4
+      width: 310
+      height: 424
+    spriteID: 741555f3a8fff0944baeba4b568ccfbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -792, y: -1571}
+  - name: Sponge_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 460
+      width: 354
+      height: 455
+    spriteID: b6b24c096a19ee1499e4421dea18609d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -762, y: -1084}
+  - name: BlackPen_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 784
+      y: 460
+      width: 1196
+      height: 40
+    spriteID: 88c48e428cdfe2f46a79ad2682bebbe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 742, y: -48}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 1
+  mosaicPSDLayers:
+  - name: Rasterized
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: eb5411dc188e58f4dbb8cf607e6144d2
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eyeliner_obj
+    spriteName: Eyeliner_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b5fa1ec886959644fb8fddeb09bbba92
+    layerID: 91
+    mosaicPosition: {x: 537, y: 632}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Razor_obj
+    spriteName: Razor_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4890b9dff8f89d34bb86c63df10aca4f
+    layerID: 50
+    mosaicPosition: {x: 236, y: 1386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Brush-02_obj
+    spriteName: Brush-02_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5d7561f43b39c264eba296e347a7d528
+    layerID: 108
+    mosaicPosition: {x: 537, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Brush-01_obj
+    spriteName: Brush-01_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d337953bc54394f41ae3635b05d16c69
+    layerID: 49
+    mosaicPosition: {x: 537, y: 1130}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Foundation_obj
+    spriteName: Foundation_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fdecc0cf311513f4a8128f6ecb76244f
+    layerID: 48
+    mosaicPosition: {x: 639, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Hand_obj
+    spriteName: Hand_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5e27d618407fa19408fabe21b9e2219f
+    layerID: 47
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Eyes_obj
+    spriteName: Eyes_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b17a878286c510943a335c9b0788bfd2
+    layerID: 46
+    mosaicPosition: {x: 422, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lipstick_obj
+    spriteName: Lipstick_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4a37faa35b8a3c8448c27972e3f44bb7
+    layerID: 45
+    mosaicPosition: {x: 120, y: 1386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Needle_obj
+    spriteName: Needle_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fd3071e0a512f0d42838f390e96c1035
+    layerID: 44
+    mosaicPosition: {x: 4, y: 1386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MetalToolPimple_obj
+    spriteName: MetalToolPimple_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 762444fd5089bfe4cac1079beb1ac3f7
+    layerID: 43
+    mosaicPosition: {x: 422, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BrushGreen_obj
+    spriteName: BrushGreen_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ca0cc239053bf1b4b9a37eed54a6d52e
+    layerID: 42
+    mosaicPosition: {x: 315, y: 1386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Towel_obj
+    spriteName: Towel_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d1513166f674fcb4ca887df2470cbc66
+    layerID: 41
+    mosaicPosition: {x: 4, y: 954}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sponge_obj
+    spriteName: Sponge_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: acf4a6c3167cb9542b8ed8219b59685d
+    layerID: 40
+    mosaicPosition: {x: 4, y: 491}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BlackPen_obj
+    spriteName: BlackPen_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 66c6451e86f185c46a6799a4fac2cd10
+    layerID: 39
+    mosaicPosition: {x: 489, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Smarts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: da58cf8547ab0c749a84bf6619e3a690
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Eyeliner_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 1af282e62616fbc4eab2c15f85d88a63
+    layerID: 92
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Razor_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 2de06a543a72de841b5bd8a6ccbd6d94
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Brush-01_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 0fed7f7b8dcb90a4cbe361dcca388f6f
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Foundation_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 1766fd7f8c09de240be5de68f5a206ea
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Hand_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: cc3fbec37542b2246bb47070396de6b5
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eyes_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: a3a5d424d00ccfc4481e5976f7e447f8
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lipstick_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e816243a5164a7642af59f1942276c0b
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Needle_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 363351e6e9edfe440935005dceda8e14
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MetalToolPimple_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e659d054127102a4ca61cf75a9e0496d
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Brush-02_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 742c52424468d3b418b088f000972bb1
+    layerID: 107
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BrushGreen_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 149681a88cd110d46aa4009d6ae8f798
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Towel_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 58f4133144dcc554fa861d36925e978c
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sponge_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e56becaec92c8f741876c542610217f7
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BlackPen_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 121d37cb545c4524aaed14dcf59749ee
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 0
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fbe73345b8a031746b314a7f36f82780
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  rigPSDLayers:
+  - name: Rasterized
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Razor_obj
+    spriteName: Razor_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 1fc2c7f77eb09b04dafdf76e716b6bb9
+    layerID: 50
+    mosaicPosition: {x: 457, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Brush-01_obj
+    spriteName: Brush-01_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 36cd34314fbe3ed49b91c129b3ed26bb
+    layerID: 49
+    mosaicPosition: {x: 4, y: 1014}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Foundation_obj
+    spriteName: Foundation_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5d9937f2b3598d74fa89ad7b9a3cfddc
+    layerID: 48
+    mosaicPosition: {x: 1870, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Hand_obj
+    spriteName: Hand_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 71066cb2b0a4dfa45a99eb9e335a73ab
+    layerID: 47
+    mosaicPosition: {x: 4, y: 460}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Eyes_obj
+    spriteName: Eyes_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5f9bfa016375aa64bb6dd72824f51c7a
+    layerID: 46
+    mosaicPosition: {x: 1174, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lipstick_obj
+    spriteName: Lipstick_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 037dca0a1d8c05f48823d5d2b1c8f8c5
+    layerID: 45
+    mosaicPosition: {x: 1649, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Needle_obj
+    spriteName: Needle_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e69db6dfeb4cedd48bf64efbdb7ab349
+    layerID: 44
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MetalToolPimple_obj
+    spriteName: MetalToolPimple_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4dbc64f1732e5a247b5bfcaf36b89ec0
+    layerID: 43
+    mosaicPosition: {x: 4, y: 947}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BrushGreen_obj
+    spriteName: BrushGreen_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 8a4a9217dc97b974b89f0aa30fb01054
+    layerID: 42
+    mosaicPosition: {x: 1765, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Towel_obj
+    spriteName: Towel_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 741555f3a8fff0944baeba4b568ccfbe
+    layerID: 41
+    mosaicPosition: {x: 856, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sponge_obj
+    spriteName: Sponge_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b6b24c096a19ee1499e4421dea18609d
+    layerID: 40
+    mosaicPosition: {x: 422, y: 460}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BlackPen_obj
+    spriteName: BlackPen_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 88c48e428cdfe2f46a79ad2682bebbe4
+    layerID: 39
+    mosaicPosition: {x: 784, y: 460}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Smarts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Razor_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Brush-01_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Foundation_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Hand_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eyes_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lipstick_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Needle_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MetalToolPimple_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BrushGreen_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Towel_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sponge_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BlackPen_obj smart
+    spriteName: 
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 0
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

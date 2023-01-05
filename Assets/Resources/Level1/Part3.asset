@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57ebb38e18b9e6419823f7ed6ec578a, type: 3}
+  m_Name: Part3
+  m_EditorClassIdentifier: 
+  setupObjs_Activate: []
+  setupObjs_Deactivate: []
+  questsInfo:
+  - startQuestID: Blush_01
+    endQuestID: Blush_01
+    questSprite: {fileID: -3251900615732101332, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: Lips_B
+    endQuestID: Lips_T
+    questSprite: {fileID: -4876366158479503506, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  levelParts:
+  - questID: Setup
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 2.097
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 0
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Blush_01
+    spritesToAdd:
+    - Blush_Final
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Blush_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7310, y: 1669}
+    dimensionsWithinAtlas: {x: 647, y: 367}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 1
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Lips_B
+    spritesToAdd:
+    - Lips_bottom_Final
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Lips_bottom_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7013, y: 2249}
+    dimensionsWithinAtlas: {x: 226, y: 91}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: LIPS_TARGET
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Lips_T
+    spritesToAdd:
+    - Lips_top_Final
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Lips_top_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 5764, y: 2412}
+    dimensionsWithinAtlas: {x: 224, y: 58}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: LIPS_TARGET
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: StepThreeCompleted
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 1
+    skipToNextQuest: 0
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5

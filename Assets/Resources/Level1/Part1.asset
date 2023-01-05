@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57ebb38e18b9e6419823f7ed6ec578a, type: 3}
+  m_Name: Part1
+  m_EditorClassIdentifier: 
+  setupObjs_Activate: []
+  setupObjs_Deactivate: []
+  questsInfo:
+  - startQuestID: Water
+    endQuestID: Water
+    questSprite: {fileID: -7214607664841187025, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: Pimple_01
+    endQuestID: Pimple_03
+    questSprite: {fileID: 6327062293429957433, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: MaskNose_01
+    endQuestID: MaskNose_02
+    questSprite: {fileID: -5621207279726455283, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: MaskGreen_01
+    endQuestID: MaskGreen_02
+    questSprite: {fileID: -6631940192895268608, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: BaseCream_01
+    endQuestID: BaseCream_02
+    questSprite: {fileID: -7597024807384864424, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  levelParts:
+  - questID: Setup
+    spritesToAdd:
+    - Water_Drops
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 2.097
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 0
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Water
+    spritesToAdd: []
+    spritesToRemove:
+    - Water_Drops
+    kindOfUpdate: 0
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 2
+    brushSize: {x: 0.1, y: 0.1}
+    brushMaskSize: 1
+    pixelCoordinatesInAtlas: {x: 7310, y: 898}
+    dimensionsWithinAtlas: {x: 426, y: 763}
+    shouldRemoveLastRow: 1
+    shouldRemoveLastColumn: 1
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: 
+    orthoSize: 0
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0
+  - questID: Pimple_01
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 0
+    guidelineName: Pimple_01_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 1
+    toolSize: 0.7
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 4, y: 3669}
+    dimensionsWithinAtlas: {x: 319, y: 198}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: 
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Pimple_02
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: Pimple_02_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 1
+    toolSize: 0.7
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 4, y: 3669}
+    dimensionsWithinAtlas: {x: 319, y: 198}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 0
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Pimple_03
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: Pimple_03_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 1
+    toolSize: 0.7
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 4, y: 3669}
+    dimensionsWithinAtlas: {x: 319, y: 198}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 0
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MaskNose_01
+    spritesToAdd:
+    - MaskNose_1
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: MaskNose_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 5190, y: 2412}
+    dimensionsWithinAtlas: {x: 319, y: 198}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1
+    partOffset: {x: 0, y: -0.33, z: 0}
+    zoomSpeed: 0.5
+  - questID: MaskNose_02
+    spritesToAdd: []
+    spritesToRemove:
+    - MaskNose_1
+    - Body_BlackSpots
+    kindOfUpdate: 0
+    focusOnAdd: 0
+    guidelineName: MaskNose_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1.5
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 5190, y: 2412}
+    dimensionsWithinAtlas: {x: 319, y: 198}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MaskGreen_01
+    spritesToAdd:
+    - MaskGreen_1
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: MaskGreen_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1.5
+    brushSize: {x: 0.1, y: 0.1}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7310, y: 4}
+    dimensionsWithinAtlas: {x: 692, y: 995}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MaskGreen_02
+    spritesToAdd: []
+    spritesToRemove:
+    - MaskGreen_1
+    - Body_Ojeras
+    kindOfUpdate: 0
+    focusOnAdd: 0
+    guidelineName: MaskGreen_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 2
+    brushSize: {x: 0.1, y: 0.1}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7310, y: 4}
+    dimensionsWithinAtlas: {x: 692, y: 995}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: BaseCream_01
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1.3
+    brushSize: {x: 0.2, y: 0.2}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 6311, y: 1397}
+    dimensionsWithinAtlas: {x: 692, y: 995}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: BaseCream_02
+    spritesToAdd:
+    - Body_Face
+    spritesToRemove:
+    - Body_CrushedPimples
+    - Body_Pecas
+    - BaseCream_01
+    - BaseCream_02
+    - BaseCream_03
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 0.8
+    brushSize: {x: 0.2, y: 0.2}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 3312, y: 2442}
+    dimensionsWithinAtlas: {x: 664, y: 932}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: StepOneCompleted
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 1
+    skipToNextQuest: 0
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5

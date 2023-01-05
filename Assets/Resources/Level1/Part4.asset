@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57ebb38e18b9e6419823f7ed6ec578a, type: 3}
+  m_Name: Part4
+  m_EditorClassIdentifier: 
+  setupObjs_Activate: []
+  setupObjs_Deactivate: []
+  questsInfo:
+  - startQuestID: 
+    endQuestID: 
+    questSprite: {fileID: 8315040668980834224, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: 
+    endQuestID: 
+    questSprite: {fileID: -9221515432540542686, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: 
+    endQuestID: 
+    questSprite: {fileID: -6169157875396022256, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: 
+    endQuestID: 
+    questSprite: {fileID: 5051929163619321111, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  levelParts:
+  - questID: Clothes
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 4
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Hair
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 4
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Earings
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 4
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Necklace
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 4
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 2
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: StepFourCompleted
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 1
+    skipToNextQuest: 0
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5

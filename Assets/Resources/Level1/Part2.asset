@@ -1,0 +1,687 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57ebb38e18b9e6419823f7ed6ec578a, type: 3}
+  m_Name: Part2
+  m_EditorClassIdentifier: 
+  setupObjs_Activate:
+  - Body_Eyes_closed
+  setupObjs_Deactivate: []
+  questsInfo:
+  - startQuestID: Eyebrows_R_01
+    endQuestID: Eyes_L_05
+    questSprite: {fileID: -9013115628613987177, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: Eyes_R_06
+    endQuestID: Eyes_L_06
+    questSprite: {fileID: -1822568912116021145, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  - startQuestID: Lenses_R
+    endQuestID: Lenses_L
+    questSprite: {fileID: 5827289912741085573, guid: 84ae350493842204bbda5782dddf5464, type: 3}
+  levelParts:
+  - questID: Setup
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 2.097
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 0
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYEBROW_R
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyebrows_R_01
+    spritesToAdd:
+    - Eyebrows_R_Depilado
+    spritesToRemove:
+    - Eyebrows_R_Inicial
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyebrows_R_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7013, y: 2061}
+    dimensionsWithinAtlas: {x: 243, y: 86}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYEBROW_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyebrows_R_02
+    spritesToAdd:
+    - Eyebrows_R_Final
+    spritesToRemove:
+    - Eyebrows_R_Depilado
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyebrows_R_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 0.7
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7013, y: 2061}
+    dimensionsWithinAtlas: {x: 243, y: 86}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYEBROW_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_R_01
+    spritesToAdd:
+    - Eyes_R-01_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_R_01_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7013, y: 1568}
+    dimensionsWithinAtlas: {x: 277, y: 163}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_R
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 2
+  - questID: Eyes_R_02
+    spritesToAdd:
+    - Eyes_R-02_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_R_02_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 8030, y: 1028}
+    dimensionsWithinAtlas: {x: 152, y: 122}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_R_03
+    spritesToAdd:
+    - Eyes_R-03_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_R_03_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 6832, y: 2299}
+    dimensionsWithinAtlas: {x: 171, y: 84}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_R_04
+    spritesToAdd:
+    - Eyes_R-04_MakeUp
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_R_04_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 8030, y: 1252}
+    dimensionsWithinAtlas: {x: 117, y: 68}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_R_05
+    spritesToAdd:
+    - Eyes_R-05_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_R_05_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7969, y: 4}
+    dimensionsWithinAtlas: {x: 196, y: 100}
+    shouldRemoveLastRow: 1
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MiddleStep_01
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 0
+    isMiddleStep: 1
+    offerSkipToNextStep: 1
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyebrows_L_01
+    spritesToAdd:
+    - Eyebrows_L_Depilado
+    spritesToRemove:
+    - Eyebrows_L_Inicial
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyebrows_L_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 5517, y: 2412}
+    dimensionsWithinAtlas: {x: 239, y: 81}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYEBROW_L
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyebrows_L_02
+    spritesToAdd:
+    - Eyebrows_L_Final
+    spritesToRemove:
+    - Eyebrows_L_Depilado
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyebrows_L_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7744, y: 1572}
+    dimensionsWithinAtlas: {x: 243, y: 86}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYEBROW_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_01
+    spritesToAdd:
+    - Eyes_L_01_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_L_01_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7013, y: 1397}
+    dimensionsWithinAtlas: {x: 277, y: 163}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_L
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_02
+    spritesToAdd:
+    - Eyes_L-02_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_L_02_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 8030, y: 898}
+    dimensionsWithinAtlas: {x: 152, y: 122}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_03
+    spritesToAdd:
+    - Eyes_L_03_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_L_03_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 3994, y: 3792}
+    dimensionsWithinAtlas: {x: 175, y: 90}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_04
+    spritesToAdd:
+    - Eyes_L-04_MakeUp
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_L_04_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7768, y: 2336}
+    dimensionsWithinAtlas: {x: 117, y: 68}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_05
+    spritesToAdd:
+    - Eyes_L-05_Makeup
+    spritesToRemove: []
+    kindOfUpdate: 0
+    focusOnAdd: 1
+    guidelineName: Eyes_L_05_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 7968, y: 2239}
+    dimensionsWithinAtlas: {x: 196, y: 100}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: EYE_R
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MiddleStep_02
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 0
+    isMiddleStep: 1
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_R_06
+    spritesToAdd:
+    - Eyes_R-06_MakeUp
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: Eyes_R_06_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 3994, y: 3890}
+    dimensionsWithinAtlas: {x: 180, y: 79}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_R
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Eyes_L_06
+    spritesToAdd:
+    - Eyes_R-06_MakeUp
+    spritesToRemove: []
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: Eyes_R_06_GuideLine
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0.05, y: 0.05}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 7995, y: 1572}
+    dimensionsWithinAtlas: {x: 180, y: 79}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_L
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: MiddleStep_03
+    spritesToAdd:
+    - Body_Eyes_OpenWithMakeUp
+    spritesToRemove:
+    - Body_Eyes_closed
+    - Eyes_R-01_Makeup
+    - Eyes_R-02_Makeup
+    - Eyes_R-03_Makeup
+    - Eyes_R-04_MakeUp
+    - Eyes_R-05_Makeup
+    - Eyes_R-06_MakeUp
+    - Eyes_L_01_Makeup
+    - Eyes_L-02_Makeup
+    - Eyes_L_03_Makeup
+    - Eyes_L-04_MakeUp
+    - Eyes_L-05_Makeup
+    - Eyes_L-06_MakeUp
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 0
+    shouldResetToolPosition: 0
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 0
+    nameOfTarget: FACE_TARGET
+    orthoSize: 1.5
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 1
+  - questID: Lenses_R
+    spritesToAdd:
+    - Iris_R_Final
+    spritesToRemove:
+    - Iris_R_Inicial
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_R
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: Lenses_L
+    spritesToAdd:
+    - Iris_L_Final
+    spritesToRemove:
+    - Iris_L_Inicial
+    kindOfUpdate: 1
+    focusOnAdd: 1
+    guidelineName: 
+    isLastQuest: 0
+    skipToNextQuest: 1
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 0.7
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: EYE_L
+    orthoSize: 1
+    partOffset: {x: 0, y: 0, z: 0}
+    zoomSpeed: 0.5
+  - questID: StepTwoCompleted
+    spritesToAdd: []
+    spritesToRemove: []
+    kindOfUpdate: 3
+    focusOnAdd: 0
+    guidelineName: 
+    isLastQuest: 1
+    skipToNextQuest: 0
+    isMiddleStep: 0
+    offerSkipToNextStep: 0
+    needsTool: 1
+    shouldResetToolPosition: 1
+    toolSize: 1
+    brushSize: {x: 0, y: 0}
+    brushMaskSize: 1.5
+    pixelCoordinatesInAtlas: {x: 0, y: 0}
+    dimensionsWithinAtlas: {x: 0, y: 0}
+    shouldRemoveLastRow: 0
+    shouldRemoveLastColumn: 0
+    interactionNeeded: 1
+    fadeSpeed: 0
+    animSpeed: 0
+    shouldCameraMove: 1
+    nameOfTarget: BODY_TARGET
+    orthoSize: 5.4
+    partOffset: {x: 0, y: 0.6, z: 0}
+    zoomSpeed: 0.5
