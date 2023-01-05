@@ -97,8 +97,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 537
-      y: 632
+      x: 605
+      y: 1486
       width: 54
       height: 490
     spriteID: b5fa1ec886959644fb8fddeb09bbba92
@@ -110,7 +110,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -583, y: 9}
+    uvTransform: {x: -515, y: 863}
   - name: Razor_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -118,8 +118,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 236
-      y: 1386
+      x: 322
+      y: 1452
       width: 71
       height: 582
     spriteID: 4890b9dff8f89d34bb86c63df10aca4f
@@ -131,7 +131,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -68, y: -57}
+    uvTransform: {x: 18, y: 9}
   - name: Brush-02_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -139,8 +139,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 537
-      y: 227
+      x: 605
+      y: 1081
       width: 94
       height: 397
     spriteID: 5d7561f43b39c264eba296e347a7d528
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -806, y: -396}
+    uvTransform: {x: -738, y: 458}
   - name: Brush-01_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,8 +160,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 537
-      y: 1130
+      x: 667
+      y: 1486
       width: 42
       height: 483
     spriteID: d337953bc54394f41ae3635b05d16c69
@@ -173,7 +173,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -21, y: -406}
+    uvTransform: {x: 109, y: -50}
   - name: Foundation_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -181,7 +181,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 639
+      x: 721
       y: 227
       width: 110
       height: 325
@@ -194,7 +194,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 548, y: -889}
+    uvTransform: {x: 630, y: -889}
+  - name: Handblack_obj
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 410
+      height: 490
+    spriteID: af7a67977517f6244a2098299a78c2fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1124, y: -32}
   - name: Hand_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -203,7 +224,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 502
       width: 410
       height: 479
     spriteID: 5e27d618407fa19408fabe21b9e2219f
@@ -215,7 +236,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -706, y: -1532}
+    uvTransform: {x: -706, y: -1034}
   - name: Eyes_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -244,8 +265,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 120
-      y: 1386
+      x: 605
+      y: 227
       width: 108
       height: 440
     spriteID: 4a37faa35b8a3c8448c27972e3f44bb7
@@ -257,7 +278,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -213, y: 763}
+    uvTransform: {x: 272, y: -396}
   - name: Needle_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -265,8 +286,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1386
+      x: 489
+      y: 227
       width: 108
       height: 590
     spriteID: fd3071e0a512f0d42838f390e96c1035
@@ -278,7 +299,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -884, y: 749}
+    uvTransform: {x: -399, y: -410}
   - name: MetalToolPimple_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -307,8 +328,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 315
-      y: 1386
+      x: 605
+      y: 675
       width: 97
       height: 398
     spriteID: ca0cc239053bf1b4b9a37eed54a6d52e
@@ -320,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 217, y: 742}
+    uvTransform: {x: 507, y: 31}
   - name: Towel_obj
     originalName: 
     pivot: {x: 0.53441733, y: 0.18545595}
@@ -329,7 +350,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 954
+      y: 1452
       width: 310
       height: 424
     spriteID: d1513166f674fcb4ca887df2470cbc66
@@ -341,7 +362,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1584, y: 890}
+    uvTransform: {x: -1584, y: 1388}
   - name: Sponge_obj
     originalName: 
     pivot: {x: 0.5060278, y: 0.08260632}
@@ -350,7 +371,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 491
+      y: 989
       width: 354
       height: 455
     spriteID: acf4a6c3167cb9542b8ed8219b59685d
@@ -362,7 +383,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1180, y: -1053}
+    uvTransform: {x: -1180, y: -555}
   - name: BlackPen_obj
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -371,7 +392,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 489
-      y: 227
+      y: 825
       width: 40
       height: 1196
     spriteID: 66c6451e86f185c46a6799a4fac2cd10
@@ -383,7 +404,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1240, y: -365}
+    uvTransform: {x: -1240, y: 233}
   rigSpriteImportData:
   - name: Razor_obj
     originalName: 
@@ -748,7 +769,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: b5fa1ec886959644fb8fddeb09bbba92
     layerID: 91
-    mosaicPosition: {x: 537, y: 632}
+    mosaicPosition: {x: 605, y: 1486}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -758,7 +779,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 4890b9dff8f89d34bb86c63df10aca4f
     layerID: 50
-    mosaicPosition: {x: 236, y: 1386}
+    mosaicPosition: {x: 322, y: 1452}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -768,7 +789,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 5d7561f43b39c264eba296e347a7d528
     layerID: 108
-    mosaicPosition: {x: 537, y: 227}
+    mosaicPosition: {x: 605, y: 1081}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -778,7 +799,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: d337953bc54394f41ae3635b05d16c69
     layerID: 49
-    mosaicPosition: {x: 537, y: 1130}
+    mosaicPosition: {x: 667, y: 1486}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -788,7 +809,17 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: fdecc0cf311513f4a8128f6ecb76244f
     layerID: 48
-    mosaicPosition: {x: 639, y: 227}
+    mosaicPosition: {x: 721, y: 227}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Handblack_obj
+    spriteName: Handblack_obj
+    isGroup: 0
+    parentIndex: 0
+    spriteID: af7a67977517f6244a2098299a78c2fd
+    layerID: 141
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -798,7 +829,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 5e27d618407fa19408fabe21b9e2219f
     layerID: 47
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 502}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -818,7 +849,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 4a37faa35b8a3c8448c27972e3f44bb7
     layerID: 45
-    mosaicPosition: {x: 120, y: 1386}
+    mosaicPosition: {x: 605, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -828,7 +859,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: fd3071e0a512f0d42838f390e96c1035
     layerID: 44
-    mosaicPosition: {x: 4, y: 1386}
+    mosaicPosition: {x: 489, y: 227}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -848,7 +879,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: ca0cc239053bf1b4b9a37eed54a6d52e
     layerID: 42
-    mosaicPosition: {x: 315, y: 1386}
+    mosaicPosition: {x: 605, y: 675}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -858,7 +889,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: d1513166f674fcb4ca887df2470cbc66
     layerID: 41
-    mosaicPosition: {x: 4, y: 954}
+    mosaicPosition: {x: 4, y: 1452}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -868,7 +899,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: acf4a6c3167cb9542b8ed8219b59685d
     layerID: 40
-    mosaicPosition: {x: 4, y: 491}
+    mosaicPosition: {x: 4, y: 989}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -878,7 +909,7 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 66c6451e86f185c46a6799a4fac2cd10
     layerID: 39
-    mosaicPosition: {x: 489, y: 227}
+    mosaicPosition: {x: 489, y: 825}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -895,7 +926,7 @@ ScriptedImporter:
   - name: Eyeliner_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 1af282e62616fbc4eab2c15f85d88a63
     layerID: 92
     mosaicPosition: {x: 0, y: 0}
@@ -905,7 +936,7 @@ ScriptedImporter:
   - name: Razor_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 2de06a543a72de841b5bd8a6ccbd6d94
     layerID: 13
     mosaicPosition: {x: 0, y: 0}
@@ -915,7 +946,7 @@ ScriptedImporter:
   - name: Brush-01_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 0fed7f7b8dcb90a4cbe361dcca388f6f
     layerID: 12
     mosaicPosition: {x: 0, y: 0}
@@ -925,7 +956,7 @@ ScriptedImporter:
   - name: Foundation_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 1766fd7f8c09de240be5de68f5a206ea
     layerID: 11
     mosaicPosition: {x: 0, y: 0}
@@ -935,7 +966,7 @@ ScriptedImporter:
   - name: Hand_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: cc3fbec37542b2246bb47070396de6b5
     layerID: 10
     mosaicPosition: {x: 0, y: 0}
@@ -945,7 +976,7 @@ ScriptedImporter:
   - name: Eyes_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: a3a5d424d00ccfc4481e5976f7e447f8
     layerID: 9
     mosaicPosition: {x: 0, y: 0}
@@ -955,7 +986,7 @@ ScriptedImporter:
   - name: Lipstick_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: e816243a5164a7642af59f1942276c0b
     layerID: 8
     mosaicPosition: {x: 0, y: 0}
@@ -965,7 +996,7 @@ ScriptedImporter:
   - name: Needle_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 363351e6e9edfe440935005dceda8e14
     layerID: 7
     mosaicPosition: {x: 0, y: 0}
@@ -975,7 +1006,7 @@ ScriptedImporter:
   - name: MetalToolPimple_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: e659d054127102a4ca61cf75a9e0496d
     layerID: 6
     mosaicPosition: {x: 0, y: 0}
@@ -985,7 +1016,7 @@ ScriptedImporter:
   - name: Brush-02_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 742c52424468d3b418b088f000972bb1
     layerID: 107
     mosaicPosition: {x: 0, y: 0}
@@ -995,7 +1026,7 @@ ScriptedImporter:
   - name: BrushGreen_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 149681a88cd110d46aa4009d6ae8f798
     layerID: 5
     mosaicPosition: {x: 0, y: 0}
@@ -1005,7 +1036,7 @@ ScriptedImporter:
   - name: Towel_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 58f4133144dcc554fa861d36925e978c
     layerID: 4
     mosaicPosition: {x: 0, y: 0}
@@ -1015,7 +1046,7 @@ ScriptedImporter:
   - name: Sponge_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: e56becaec92c8f741876c542610217f7
     layerID: 14
     mosaicPosition: {x: 0, y: 0}
@@ -1025,7 +1056,7 @@ ScriptedImporter:
   - name: BlackPen_obj smart
     spriteName: 
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 16
     spriteID: 121d37cb545c4524aaed14dcf59749ee
     layerID: 3
     mosaicPosition: {x: 0, y: 0}

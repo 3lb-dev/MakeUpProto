@@ -8,25 +8,37 @@ public class MakeUpManager : MonoBehaviour
 {
     [Header("Debug")]
     public BrushFiller brushFiller;
+
+    [Header("Character")]
+    public GameObject characterObj;
+
+    [Header("Camera Control")]
     public Transform lookAtTarget;
-    public AnimationCurve targetLerpCurve;
     public CinemachineVirtualCamera v_cameraControl;
+
+    [Header("UI Panels")]
+    public GameObject startPanel;
+    public GameObject stepCompletePanel;
+    public GameObject skipStepPanel;
+    public GameObject endGamePanel;
+    public GameObject persistentHud;
+    public GameObject hud;
 
     [Header("UI")]
     public GameObject nextButton;
     public GameObject nextButtonQuest;
-    public GameObject stepCompletePanel;
-    public GameObject skipStepPanel;
     public RectTransform toolOriginPos;
     public RectTransform toolTargetPos;
     public Transform questsParent;
     public GameObject quest_UI_Prefab;
+
+    [Header("Tools")]
     public Transform toolHandleHelper;
+    public AnimationCurve targetLerpCurve;
 
     static Transform toolHandle;
     static RectTransform screenToolPosition;
     static RectTransform screenToolPositionOrigin;
-
     private LevelInstance levelInstance;
 
 
@@ -77,8 +89,12 @@ public class MakeUpManager : MonoBehaviour
     }
 
     //Debug, should be activated by UI
-    private void Start()
+    public void StartGame()
     {
+        hud.SetActive(true);
+        persistentHud.SetActive(true);
+        characterObj.SetActive(true);
+        startPanel.SetActive(false);
         toolHandle = toolHandleHelper;
         screenToolPositionOrigin = toolOriginPos;
         screenToolPosition = toolTargetPos;
@@ -104,31 +120,37 @@ public class MakeUpManager : MonoBehaviour
         stepIndex = 0;
         levelInstance = Resources.Load("Level1/Part" + partIndex) as LevelInstance;
         if (levelInstance == null)
+        {
+            endGamePanel.SetActive(true);
             return;
-        if (levelInstance.setupObjs_Activate != null)
+        }
+        else
         {
-            foreach (string STR in levelInstance.setupObjs_Activate)
+            if (levelInstance.setupObjs_Activate != null)
             {
-                GameObject newObj = GameObject.Find(STR) as GameObject;
-                newObj.GetComponent<SpriteRenderer>().enabled = true;
+                foreach (string STR in levelInstance.setupObjs_Activate)
+                {
+                    GameObject newObj = GameObject.Find(STR) as GameObject;
+                    newObj.GetComponent<SpriteRenderer>().enabled = true;
+                }
             }
-        }
-        if (levelInstance.setupObjs_Deactivate != null)
-        {
-            foreach (string STR in levelInstance.setupObjs_Deactivate)
+            if (levelInstance.setupObjs_Deactivate != null)
             {
-                GameObject newObj = GameObject.Find(STR) as GameObject;
-                newObj.GetComponent<SpriteRenderer>().enabled = false;
+                foreach (string STR in levelInstance.setupObjs_Deactivate)
+                {
+                    GameObject newObj = GameObject.Find(STR) as GameObject;
+                    newObj.GetComponent<SpriteRenderer>().enabled = false;
+                }
             }
+            foreach (QUEST_INFO QI in levelInstance.questsInfo)
+            {
+                GameObject newQuestUI = Instantiate(quest_UI_Prefab, questsParent) as GameObject;
+                newQuestUI.transform.localScale = Vector3.one;
+                newQuestUI.GetComponent<Quest_UI>().SetupComponent(QI);
+                currentQuestsUI.Add(newQuestUI);
+            }
+            SetupNextQuest();
         }
-        foreach (QUEST_INFO QI in levelInstance.questsInfo)
-        {
-            GameObject newQuestUI = Instantiate(quest_UI_Prefab, questsParent) as GameObject;
-            newQuestUI.transform.localScale = Vector3.one;
-            newQuestUI.GetComponent<Quest_UI>().SetupComponent(QI);
-            currentQuestsUI.Add(newQuestUI);
-        }
-        SetupNextQuest();
     }
 
     public void CompleteStep()
@@ -379,6 +401,10 @@ public class MakeUpManager : MonoBehaviour
     }
 
     //Tool Management
+    Vector2 currentPos;
+    Vector2 deltaPos;
+    Vector2 lastPos;
+    Vector3 convertedPos;
     private void Update()
     {
         if (toolReady)
@@ -393,12 +419,19 @@ public class MakeUpManager : MonoBehaviour
                     Vector3 pos = touch.position;
                     if (touch.phase == TouchPhase.Began /*&& nextStepReady*/)
                     {
-                        SnapToolToTouch(pos);
+                        //SnapToolToTouch(pos);
+                        currentPos = Camera.main.ScreenToWorldPoint(pos);
+                        lastPos = currentPos;
                         drawing = true;
                     }
                     else if (touch.phase == TouchPhase.Moved && drawing)
                     {
-                        SnapToolToTouch(pos);
+                        currentPos = Camera.main.ScreenToWorldPoint(pos);
+                        deltaPos = currentPos - lastPos;
+                        lastPos = currentPos;
+                        Vector3 convertedDeltaPos = new Vector3(deltaPos.x, deltaPos.y, 0);
+                        //SnapToolToTouch(pos);
+                        DragTool(convertedDeltaPos);
                     }
                     else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)//End drag or tap
                     {
@@ -410,25 +443,40 @@ public class MakeUpManager : MonoBehaviour
             else
             {
                 if (Input.GetMouseButtonDown(0) /*&& nextStepReady*/)
+                {
                     drawing = true;
+                    currentPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    lastPos = currentPos;
+                }
                 //Debug.LogWarning("Application isn't mobile");
                 if (Input.GetMouseButton(0) && drawing)
                 {
                     Vector3 pos = Input.mousePosition;
-                    SnapToolToTouch(pos);
+                    //SnapToolToTouch(pos);
+                    currentPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    deltaPos = currentPos - lastPos;
+                    lastPos = currentPos;
+                    Vector3 convertedDeltaPos = new Vector3(deltaPos.x, deltaPos.y, 0);
+                    DragTool(convertedDeltaPos);
                 }
                 if (Input.GetMouseButtonUp(0))
+                {
                     drawing = false;
+                }
             }
         }
     }
 
     void SnapToolToTouch(Vector3 inputPosition)
     {
-        
-            //Debug.LogWarning("Snaping tool to mouse position");
-            Vector3 convertedPosition = Camera.main.ScreenToWorldPoint(inputPosition);
-            Vector3 resultingPosition = new Vector3(convertedPosition.x, convertedPosition.y, 0f);
-            toolHandle.position = resultingPosition;
+        //Debug.LogWarning("Snaping tool to mouse position");
+        Vector3 convertedPosition = Camera.main.ScreenToWorldPoint(inputPosition);
+        Vector3 resultingPosition = new Vector3(convertedPosition.x, convertedPosition.y, 0f);
+        toolHandle.position = resultingPosition;
+    }
+
+    void DragTool(Vector3 positionDelta)
+    {
+        toolHandle.position += positionDelta;
     }
 }
