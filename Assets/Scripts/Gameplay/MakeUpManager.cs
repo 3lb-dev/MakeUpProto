@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.UI;
+using UnityEngine.UI;
 using Cinemachine;
 
 public class MakeUpManager : MonoBehaviour
@@ -23,6 +23,8 @@ public class MakeUpManager : MonoBehaviour
     public GameObject endGamePanel;
     public GameObject persistentHud;
     public GameObject hud;
+    public GameObject photo_Btn;
+    public Image flashObj;
 
     [Header("UI")]
     public GameObject nextButton;
@@ -53,7 +55,7 @@ public class MakeUpManager : MonoBehaviour
     Vector3 originPos;
     Vector3 targetPos;
     Vector3 targetOffset;
-    //Transform currentTool;
+    Transform currentTool;
     List<GameObject> currentQuestsUI;
 
     int totalBrushes;
@@ -72,6 +74,8 @@ public class MakeUpManager : MonoBehaviour
     public static HandleQuestCompleted OnQuestCompleted;
     public delegate void HandleToolNeeded(string questID, float toolSize);
     public static HandleToolNeeded OnToolNeeded;
+    public delegate void HandleResetTool(string questID);
+    public static HandleResetTool OnResetTool;
     MakeUpPart currentPart;
 
     private void OnEnable()
@@ -121,7 +125,9 @@ public class MakeUpManager : MonoBehaviour
         levelInstance = Resources.Load("Level1/Part" + partIndex) as LevelInstance;
         if (levelInstance == null)
         {
-            endGamePanel.SetActive(true);
+            //turn on photo interface
+            hud.SetActive(false);
+            photo_Btn.SetActive(true);
             return;
         }
         else
@@ -155,6 +161,10 @@ public class MakeUpManager : MonoBehaviour
 
     public void CompleteStep()
     {
+        if (!currentPart.keepToolForNextQuest)
+        {
+            OnResetTool?.Invoke(currentPart.questID);
+        }
         Debug.LogWarning("Step " + stepIndex + " has been completed.");
         stepIndex++;
         //drawing = false;
@@ -268,8 +278,11 @@ public class MakeUpManager : MonoBehaviour
         if (v_currentPart.needsTool)
         {
             OnToolNeeded?.Invoke(v_currentPart.questID, v_currentPart.toolSize);
-            if(v_currentPart.shouldResetToolPosition)
+            if (v_currentPart.shouldResetToolPosition)
+            { 
                 StartCoroutine(ToolLerpIn());
+            }
+                
         }
         //nextStepReady = true;
         yield return new WaitForSeconds(.05f);
@@ -323,7 +336,7 @@ public class MakeUpManager : MonoBehaviour
         while (_current != _target)
         {
             //Debug.LogWarning(_current);
-            _current = Mathf.MoveTowards(_current, _target, Time.deltaTime * 2f);
+            _current = Mathf.MoveTowards(_current, _target, Time.deltaTime * 1f);
             toolHandle.position = Vector3.Lerp(originPos, targetPos, _current);
             yield return null;
         }
@@ -478,5 +491,37 @@ public class MakeUpManager : MonoBehaviour
     void DragTool(Vector3 positionDelta)
     {
         toolHandle.position += positionDelta;
+    }
+
+    public void TakePhoto()
+    {
+        StartCoroutine(ProcessPhoto());
+    }
+    IEnumerator ProcessPhoto()
+    {
+        float v_current = 0f;
+        float v_target = 1f;
+        flashObj.gameObject.SetActive(true);
+        while (v_current != v_target)
+        {
+            v_current = Mathf.MoveTowards(v_current, v_target, Time.deltaTime * 16f);
+            var objColor = flashObj.color;
+            objColor.a = Mathf.Lerp(0, 1, v_current);
+            flashObj.color = objColor;
+            yield return null;
+        }
+        yield return new WaitForSeconds(0.1f);
+        endGamePanel.SetActive(true);
+        v_current = 1f;
+        v_target = 0f;
+        while (v_current != v_target)
+        {
+            v_current = Mathf.MoveTowards(v_current, v_target, Time.deltaTime * 2f);
+            var objColor = flashObj.color;
+            objColor.a = Mathf.Lerp(0, 1, v_current);
+            flashObj.color = objColor;
+            yield return null;
+        }
+        flashObj.gameObject.SetActive(false);
     }
 }

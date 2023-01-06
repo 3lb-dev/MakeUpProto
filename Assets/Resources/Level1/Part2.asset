@@ -38,6 +38,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 2.097
@@ -67,6 +68,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -96,6 +98,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -124,6 +127,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -152,6 +156,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -180,6 +185,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -208,6 +214,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -236,6 +243,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -263,6 +271,7 @@ MonoBehaviour:
     offerSkipToNextStep: 1
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
@@ -292,6 +301,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -321,6 +331,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -349,6 +360,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -377,6 +389,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -405,6 +418,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -433,6 +447,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -461,6 +476,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -483,11 +499,12 @@ MonoBehaviour:
     focusOnAdd: 0
     guidelineName: 
     isLastQuest: 0
-    skipToNextQuest: 0
+    skipToNextQuest: 1
     isMiddleStep: 1
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
@@ -498,7 +515,7 @@ MonoBehaviour:
     interactionNeeded: 1
     fadeSpeed: 0
     animSpeed: 0
-    shouldCameraMove: 1
+    shouldCameraMove: 0
     nameOfTarget: BODY_TARGET
     orthoSize: 5.4
     partOffset: {x: 0, y: 0.6, z: 0}
@@ -516,6 +533,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 1.5
@@ -527,7 +545,7 @@ MonoBehaviour:
     fadeSpeed: 0
     animSpeed: 0
     shouldCameraMove: 1
-    nameOfTarget: EYE_R
+    nameOfTarget: FACE_TARGET
     orthoSize: 1
     partOffset: {x: 0, y: 0, z: 0}
     zoomSpeed: 0.5
@@ -544,6 +562,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 1.5
@@ -554,7 +573,7 @@ MonoBehaviour:
     interactionNeeded: 1
     fadeSpeed: 0
     animSpeed: 0
-    shouldCameraMove: 1
+    shouldCameraMove: 0
     nameOfTarget: EYE_L
     orthoSize: 1
     partOffset: {x: 0, y: 0, z: 0}
@@ -585,6 +604,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 0
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
@@ -614,6 +634,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 0.7
@@ -624,7 +645,7 @@ MonoBehaviour:
     interactionNeeded: 1
     fadeSpeed: 0
     animSpeed: 0
-    shouldCameraMove: 1
+    shouldCameraMove: 0
     nameOfTarget: EYE_R
     orthoSize: 1
     partOffset: {x: 0, y: 0, z: 0}
@@ -643,6 +664,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 0.7
@@ -653,7 +675,7 @@ MonoBehaviour:
     interactionNeeded: 1
     fadeSpeed: 0
     animSpeed: 0
-    shouldCameraMove: 1
+    shouldCameraMove: 0
     nameOfTarget: EYE_L
     orthoSize: 1
     partOffset: {x: 0, y: 0, z: 0}
@@ -670,6 +692,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5

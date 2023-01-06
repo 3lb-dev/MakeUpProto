@@ -34,6 +34,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 2.097
@@ -62,6 +63,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -90,6 +92,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 1
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -118,6 +121,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 0
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 0.7
@@ -145,6 +149,7 @@ MonoBehaviour:
     offerSkipToNextStep: 0
     needsTool: 1
     shouldResetToolPosition: 1
+    keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5

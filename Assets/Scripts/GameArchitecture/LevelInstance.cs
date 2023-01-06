@@ -29,6 +29,7 @@ public class MakeUpPart
     public bool offerSkipToNextStep;
     public bool needsTool = true;
     public bool shouldResetToolPosition = true;
+    public bool keepToolForNextQuest = false;
     public float toolSize = 1f;
 
     [Header("BRUSH Settings")]
