@@ -34,8 +34,10 @@ public class MakeUpPart
 
     [Header("BRUSH Settings")]
     public Vector2 brushSize;
-    [Range(.7f, 1f)]
-    public float brushMaskSize = 1.5f;
+    [Range(0f, 1f)]
+    public float brushMaskSize = 0.5f;
+    [Range(.001f, 0.1f)]
+    public float brushDistance = 0.005f;
     public Vector2 pixelCoordinatesInAtlas;
     public Vector2 dimensionsWithinAtlas;
     public bool shouldRemoveLastRow;

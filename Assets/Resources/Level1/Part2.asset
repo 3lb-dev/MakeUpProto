@@ -42,6 +42,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 2.097
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -70,8 +72,10 @@ MonoBehaviour:
     shouldResetToolPosition: 1
     keepToolForNextQuest: 0
     toolSize: 1
-    brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushSize: {x: 0.02, y: 0.02}
+    brushMaskSize: 0.15
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7013, y: 2061}
     dimensionsWithinAtlas: {x: 243, y: 86}
     shouldRemoveLastRow: 0
@@ -101,7 +105,9 @@ MonoBehaviour:
     keepToolForNextQuest: 0
     toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.084
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7013, y: 2061}
     dimensionsWithinAtlas: {x: 243, y: 86}
     shouldRemoveLastRow: 0
@@ -128,9 +134,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 1
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7013, y: 1568}
     dimensionsWithinAtlas: {x: 277, y: 163}
     shouldRemoveLastRow: 0
@@ -140,7 +148,7 @@ MonoBehaviour:
     animSpeed: 0
     shouldCameraMove: 1
     nameOfTarget: EYE_R
-    orthoSize: 1
+    orthoSize: 0.7
     partOffset: {x: 0, y: 0, z: 0}
     zoomSpeed: 2
   - questID: Eyes_R_02
@@ -157,9 +165,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 8030, y: 1028}
     dimensionsWithinAtlas: {x: 152, y: 122}
     shouldRemoveLastRow: 0
@@ -186,9 +196,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 6832, y: 2299}
     dimensionsWithinAtlas: {x: 171, y: 84}
     shouldRemoveLastRow: 0
@@ -215,9 +227,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 0
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 8030, y: 1252}
     dimensionsWithinAtlas: {x: 117, y: 68}
     shouldRemoveLastRow: 0
@@ -244,9 +258,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 1
     keepToolForNextQuest: 0
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7969, y: 4}
     dimensionsWithinAtlas: {x: 196, y: 100}
     shouldRemoveLastRow: 1
@@ -275,6 +291,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -304,7 +322,9 @@ MonoBehaviour:
     keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.15
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 5517, y: 2412}
     dimensionsWithinAtlas: {x: 239, y: 81}
     shouldRemoveLastRow: 0
@@ -334,7 +354,9 @@ MonoBehaviour:
     keepToolForNextQuest: 0
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.084
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7744, y: 1572}
     dimensionsWithinAtlas: {x: 243, y: 86}
     shouldRemoveLastRow: 0
@@ -361,9 +383,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 1
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7013, y: 1397}
     dimensionsWithinAtlas: {x: 277, y: 163}
     shouldRemoveLastRow: 0
@@ -373,7 +397,7 @@ MonoBehaviour:
     animSpeed: 0
     shouldCameraMove: 1
     nameOfTarget: EYE_L
-    orthoSize: 1
+    orthoSize: 0.7
     partOffset: {x: 0, y: 0, z: 0}
     zoomSpeed: 0.5
   - questID: Eyes_L_02
@@ -390,9 +414,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 8030, y: 898}
     dimensionsWithinAtlas: {x: 152, y: 122}
     shouldRemoveLastRow: 0
@@ -419,9 +445,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 1
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 3994, y: 3792}
     dimensionsWithinAtlas: {x: 175, y: 90}
     shouldRemoveLastRow: 0
@@ -448,9 +476,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 0
     keepToolForNextQuest: 0
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7768, y: 2336}
     dimensionsWithinAtlas: {x: 117, y: 68}
     shouldRemoveLastRow: 0
@@ -477,9 +507,11 @@ MonoBehaviour:
     needsTool: 1
     shouldResetToolPosition: 1
     keepToolForNextQuest: 0
-    toolSize: 1
+    toolSize: 0.7
     brushSize: {x: 0.05, y: 0.05}
-    brushMaskSize: 0.7
+    brushMaskSize: 0.07
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7968, y: 2239}
     dimensionsWithinAtlas: {x: 196, y: 100}
     shouldRemoveLastRow: 0
@@ -508,6 +540,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -537,6 +571,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 3994, y: 3890}
     dimensionsWithinAtlas: {x: 180, y: 79}
     shouldRemoveLastRow: 0
@@ -566,6 +602,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0.05, y: 0.05}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 7995, y: 1572}
     dimensionsWithinAtlas: {x: 180, y: 79}
     shouldRemoveLastRow: 0
@@ -608,6 +646,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -638,6 +678,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 0.7
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -668,6 +710,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 0.7
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0
@@ -696,6 +740,8 @@ MonoBehaviour:
     toolSize: 1
     brushSize: {x: 0, y: 0}
     brushMaskSize: 1.5
+    lineBrushSize: 0.5
+    brushDistance: 0.005
     pixelCoordinatesInAtlas: {x: 0, y: 0}
     dimensionsWithinAtlas: {x: 0, y: 0}
     shouldRemoveLastRow: 0

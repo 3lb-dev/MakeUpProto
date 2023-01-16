@@ -37,6 +37,11 @@ public class MakeUpManager : MonoBehaviour
     [Header("Tools")]
     public Transform toolHandleHelper;
     public AnimationCurve targetLerpCurve;
+    public MakeUpTool[] availableTools;
+
+    [Header("New brush system")]
+    public GameObject brushPrefab;
+    List<GameObject> brushes;
 
     static Transform toolHandle;
     static RectTransform screenToolPosition;
@@ -104,6 +109,8 @@ public class MakeUpManager : MonoBehaviour
         screenToolPosition = toolTargetPos;
         partIndex = 0;
         SetupNextPart();
+        availableTools = FindObjectsOfType<MakeUpTool>();
+        brushes = new List<GameObject>();
     }
 
     public void SetupNextPart()
@@ -164,6 +171,7 @@ public class MakeUpManager : MonoBehaviour
         if (!currentPart.keepToolForNextQuest)
         {
             OnResetTool?.Invoke(currentPart.questID);
+            toolReady = false;
         }
         Debug.LogWarning("Step " + stepIndex + " has been completed.");
         stepIndex++;
@@ -202,6 +210,9 @@ public class MakeUpManager : MonoBehaviour
                 nextButton.SetActive(true);
             }
         }
+        //lineRenderSystem.FinishLine();
+        //lineRenderSystem.ClearLines();
+        ClearPaint();
     }
 
     //Must be activated by UI
@@ -384,7 +395,7 @@ public class MakeUpManager : MonoBehaviour
             updatedBrushes++;
             OnMaskUpdate?.Invoke(totalBrushes, updatedBrushes);
             float percentil = (float)updatedBrushes / totalBrushes;
-            if (percentil >= 0.8f)
+            if (percentil >= 0.95f)
             {
                 //set current quest complete
                 CompleteStep();
@@ -396,6 +407,7 @@ public class MakeUpManager : MonoBehaviour
     {
         float _current = 0f;
         float _target = 1f;
+        //scratchCam.orthographicSize = newOrthoSize;
         while (_current != _target)
         {
             _current = Mathf.MoveTowards(_current, _target, transitionSpeed * Time.deltaTime);
@@ -436,9 +448,25 @@ public class MakeUpManager : MonoBehaviour
                         currentPos = Camera.main.ScreenToWorldPoint(pos);
                         lastPos = currentPos;
                         drawing = true;
+                        if (currentPart.interactionNeeded == TypeOfQuest.TOUCH_TOOL)
+                        {
+                            foreach (MakeUpTool MUP in availableTools)
+                            {
+                                currentTool = MUP.GetToolTransform(currentPart.questID);
+                                if (currentTool != null)
+                                {
+                                    break;
+                                }
+                            }
+
+                        }
                     }
                     else if (touch.phase == TouchPhase.Moved && drawing)
                     {
+                        if (currentTool && currentPart.kindOfUpdate == updateKind.BRUSH)
+                        {
+                            Paint(currentTool.position);
+                        }
                         currentPos = Camera.main.ScreenToWorldPoint(pos);
                         deltaPos = currentPos - lastPos;
                         lastPos = currentPos;
@@ -460,10 +488,26 @@ public class MakeUpManager : MonoBehaviour
                     drawing = true;
                     currentPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     lastPos = currentPos;
+                    if (currentPart.interactionNeeded == TypeOfQuest.TOUCH_TOOL)
+                    {
+                        foreach (MakeUpTool MUP in availableTools)
+                        {
+                            currentTool = MUP.GetToolTransform(currentPart.questID);
+                            if (currentTool != null)
+                            {
+                                break;
+                            }
+                        }
+                        
+                    }
                 }
                 //Debug.LogWarning("Application isn't mobile");
                 if (Input.GetMouseButton(0) && drawing)
                 {
+                    if (currentTool && currentPart.kindOfUpdate == updateKind.BRUSH)
+                    {
+                        Paint(currentTool.position);
+                    }
                     Vector3 pos = Input.mousePosition;
                     //SnapToolToTouch(pos);
                     currentPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -523,5 +567,28 @@ public class MakeUpManager : MonoBehaviour
             yield return null;
         }
         flashObj.gameObject.SetActive(false);
+    }
+
+    Vector3 lastBrushPos = Vector3.zero;
+    void Paint(Vector3 v_position)
+    {
+        float distanceMagnitude = Vector3.Distance(lastBrushPos, v_position);
+        if (distanceMagnitude >= currentPart.brushDistance)
+        {
+            lastBrushPos = v_position;
+            GameObject newBrush = Instantiate(brushPrefab, v_position, Quaternion.identity) as GameObject;
+            newBrush.transform.SetParent(transform);
+            newBrush.transform.localScale = Vector3.one * currentPart.brushMaskSize;
+            brushes.Add(newBrush);
+        }
+    }
+
+    void ClearPaint()
+    {
+        foreach (GameObject GO in brushes)
+        {
+            Destroy(GO);
+        }
+        brushes.Clear();
     }
 }

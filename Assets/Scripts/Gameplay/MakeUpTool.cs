@@ -106,4 +106,14 @@ public class MakeUpTool : MonoBehaviour
         transform.SetParent(v_parent);
         transform.localPosition = Vector3.zero;
     }
+
+    public Transform GetToolTransform(string v_questID)
+    {
+        foreach (string STR in questList)
+        {
+            if (STR == v_questID)
+                return collider.transform;
+        }
+        return null;
+    }
 }

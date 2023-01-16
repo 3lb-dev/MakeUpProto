@@ -51,7 +51,7 @@ public class MaskBrush : MonoBehaviour
     public void SetupBrush(MakeUpPart v_part)
     {
         questType = v_part.interactionNeeded;
-        maskBrushRenderer.transform.localScale = Vector3.one * v_part.brushMaskSize;
+        //maskBrushRenderer.transform.localScale = Vector3.one * v_part.brushMaskSize;
         //maskBrushRenderer.frontSortingOrder = v_part.orderInLayerMax;
         //maskBrushRenderer.backSortingOrder = v_part.orderInLayerMin;
         maskBrushRenderer.frontSortingOrder = 200;
@@ -59,7 +59,7 @@ public class MaskBrush : MonoBehaviour
     }
     public void TurnOnBrush()
     {
-        maskBrushRenderer.enabled = true;
+        //maskBrushRenderer.enabled = true;
         brushCollider.enabled = false;
     }
 }
